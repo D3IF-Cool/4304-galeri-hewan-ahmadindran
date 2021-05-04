@@ -7,3 +7,5 @@ data class Hewan(
     val namaLatin: String,
     val imageId: String
 )
+
+enum class ApiStatus {LOADING, SUCCESS, FAILED}
